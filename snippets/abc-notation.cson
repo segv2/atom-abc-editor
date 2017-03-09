@@ -1,0 +1,4 @@
+'.text.abcnotation':
+  'New Tune':
+    'prefix': 'X'
+    'body': 'X: 1\nT: ${1:tuneTitle}\nR: ${2:rhythm}\nM: ${3:meter}\nL: 1/8\nK: ${4:key}\nF: https://thesession.org/tunes/15\nD: ${5:band} - ${6:album}| | | | |\n| | | | :|\n| | | | |\n| | | | :|]'

@@ -1,0 +1,11 @@
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Select whole tune'
+      'command': 'your-name-word-count:toggle'
+    },
+    {
+      'label': 'Preview tune'
+      'command': 'your-name-word-count:toggle'
+    }
+  ]

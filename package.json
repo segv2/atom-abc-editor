@@ -1,0 +1,13 @@
+{
+  "name": "abc-editor",
+  "version": "0.9.0",
+  "description": "ABC notation and preview",
+  "repository": "https://github.com/segv2/atom-abc-editor",
+  "license": "GPLv3",
+  "engines": {
+    "atom": ">1.14.4"
+  },
+  "dependencies": {
+    "svg-preview": ">=0.11.0"
+  }
+}
