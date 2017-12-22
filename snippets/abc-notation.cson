@@ -1,4 +1,12 @@
 '.text.abcnotation':
   'New Tune':
-    'prefix': 'X'
-    'body': 'X: 1\nT: ${1:tuneTitle}\nR: ${2:rhythm}\nM: ${3:meter}\nL: 1/8\nK: ${4:key}\nF: https://thesession.org/tunes/15\nD: ${5:band} - ${6:album}| | | | |\n| | | | :|\n| | | | |\n| | | | :|]'
+    'prefix': 'tune'
+    'body': 'X: 1\nT: ${1:title}\nR: ${2:rhythm}\nM: ${3:meter}\nL: 1/8\nK: ${4:key}\nD: ${5:band} - ${6:album} - ${1}| | | | |\n| | | | :|\n| | | | |\n| | | | :|]\n$0'
+
+  'Reel':
+    'prefix': 'reel'
+    'body': 'X: 1\nT: ${1:title}\nR: reel\nM: 4/4\nL: 1/8\nK: ${2:key}\nD: ${3:band} - ${4:album} - ${1}\n| | | | |\n| | | | :|\n| | | | |\n| | | | :|]\n$0'
+
+  'TheSession':
+    'prefix': 'session'
+    'body': 'X: ${1:id}\nT: ${2:title}\nR: ${3:rhythm}\nM: ${4:meter}\nL: 1/8\nK: ${5:key}\nF: https://thesession.org/tunes/${1}\nD: ${6:band} - ${7:album} - ${2}\n| | | | |\n| | | | :|\n| | | | |\n| | | | :|]\n$0'

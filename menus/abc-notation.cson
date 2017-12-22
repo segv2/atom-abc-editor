@@ -1,11 +1,24 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Select whole tune'
-      'command': 'your-name-word-count:toggle'
-    },
-    {
-      'label': 'Preview tune'
-      'command': 'your-name-word-count:toggle'
+      'label': 'Hello ABC'
+      'command': 'atom-abc-editor:hello'
     }
   ]
+
+'menu': [
+  {
+    'label': 'Packages',
+    'submenu': [
+      {
+        'label': 'ABC Editor',
+        'submenu': [
+          {
+            'label': 'Hello',
+            'command': 'atom-abc-editor:hello'
+          }
+        ]
+      }
+    ]
+  }
+]

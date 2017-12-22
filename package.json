@@ -1,13 +1,16 @@
 {
-  "name": "abc-editor",
+  "name": "atom-abc-editor",
+  "main": "./lib/main",
   "version": "0.9.0",
-  "description": "ABC notation and preview",
+  "description": "ABC Editor",
   "repository": "https://github.com/segv2/atom-abc-editor",
-  "license": "GPLv3",
+  "license": "GPL-3.0",
+  "activationCommands": {
+    "atom-workspace": "atom-abc-editor:activate"
+  },
   "engines": {
-    "atom": ">1.14.4"
+    "atom": ">1.23.1"
   },
   "dependencies": {
-    "svg-preview": ">=0.11.0"
   }
 }
