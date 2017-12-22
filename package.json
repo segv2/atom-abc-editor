@@ -8,6 +8,7 @@
   "activationCommands": {
     "atom-workspace": "atom-abc-editor:activate"
   },
+  "activationHooks": ["atom-abc-editor:grammar-used"],
   "engines": {
     "atom": ">1.23.1"
   },

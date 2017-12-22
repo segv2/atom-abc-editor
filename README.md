@@ -9,3 +9,4 @@ Ideas
 - live-preview of current tune in another pane
 - print / PDF generation
 - generate incipits
+- allow folding of complete tunes
