@@ -1,5 +1,5 @@
 'context-menu':
-  'atom-text-editor': [
+  'atom-text-editor[data-grammar="text abcnotation"]': [
     {
       'label': 'Hello ABC'
       'command': 'atom-abc-editor:hello'
