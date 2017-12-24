@@ -1,5 +1,11 @@
 # atom-abc-editor
 
+Features
+========
+- grammar for syntax highlighting
+- detection and highlighting of the current tune
+- tune snippets (to be extended)
+
 Ideas
 =====
 - import tunes from TheSession.org / Tunepal
@@ -8,4 +14,4 @@ Ideas
 - live-preview of current tune in another pane
 - print / PDF generation
 - generate incipits
-- have a tooltip that shows the notes for the current measure
+- tooltip showing the dots for the current line/measure
