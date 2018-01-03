@@ -14,5 +14,7 @@
   "engines": {
     "atom": ">1.23.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "abcjs": "^3.2.1"
+  }
 }
