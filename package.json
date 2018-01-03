@@ -1,7 +1,7 @@
 {
   "name": "atom-abc-editor",
   "main": "./lib/main",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ABC Editor",
   "repository": "https://github.com/segv2/atom-abc-editor",
   "license": "GPL-3.0",
