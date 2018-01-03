@@ -1,24 +1,10 @@
 'context-menu':
-  'atom-text-editor': [
+  'atom-text-editor[data-grammar="text abcnotation"]': [
     {
-      'label': 'Hello ABC'
-      'command': 'atom-abc-editor:hello'
+      label: 'ABC Editor'
+      submenu: [
+        {label: 'Add View',    command: 'atom-abc-editor:addView'}
+        {label: 'Remove View', command: 'atom-abc-editor:removeView'}
+      ]
     }
   ]
-
-'menu': [
-  {
-    'label': 'Packages',
-    'submenu': [
-      {
-        'label': 'ABC Editor',
-        'submenu': [
-          {
-            'label': 'Hello',
-            'command': 'atom-abc-editor:hello'
-          }
-        ]
-      }
-    ]
-  }
-]
